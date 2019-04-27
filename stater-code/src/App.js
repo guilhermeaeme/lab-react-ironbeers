@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import { NavLink, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import BeersAll from './components/BeersAll';

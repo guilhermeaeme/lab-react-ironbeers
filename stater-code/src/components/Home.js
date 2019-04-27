@@ -24,8 +24,8 @@ class Home extends Component {
     return (
       <div className="container">
         {
-          this.menu.map(item => (
-            <Link to={`${item.path}`} className="card my-3">
+          this.menu.map((item, index) => (
+            <Link key={index} to={`${item.path}`} className="card my-3">
               <img src={item.image} className="card-img-top" alt={item.title} />
               <div className="card-body">
                 <h5 className="card-title">{item.title}</h5>
